@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'SF Compact Display Black';
+    src: url('../font/SF-Compact-Display-Black.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Compact Display Black', sans-serif;
+    color: lightpink; 
+}
+
+.not-found-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.not-found-container h1 {
+    font-size: 5em;
+}
+
+.not-found-container p {
+    font-size: 2em;
+}
+
+.home-button {
+    display: block;
+    width: fit-content;
+    margin: 20px auto; 
+    padding: 10px 20px;
+    background-color: pink; 
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-family: 'SF Compact Display Black', sans-serif;
+    cursor: pointer;
+}
