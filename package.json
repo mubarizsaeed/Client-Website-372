@@ -1,15 +1,23 @@
 {
   "name": "web_projects372",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "ClientWebsite(NodeJs)",
+  "main": "handlebarsServer.js",
+
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node handlebarsServer.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mubariz Saeed",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2"
+  },
+  "engines": {
+    "node": ">=v16"
   }
+
 }
